@@ -1,0 +1,23 @@
+second xs = head (tail xs)   
+[a] -> a
+
+
+swap (x,y) = (y,x)
+(a,b) -> (b,a)
+
+
+pair x y = (x,y)
+a->b -> (a,b)
+
+
+double x = x*2
+x -> x
+
+
+palindrome xs = reverse xs == xs
+[a] -> boolean
+
+
+
+twice f x = f (f x)
+(x->x)->x->x

@@ -1,0 +1,5 @@
+[’a’,’b’,’c’]  ->   [Char]
+(’a’,’b’,’c’) ->  (Char, Char, Char)
+[(False,’O’),(True,’1’)]   ->  [(Boolean, Char), (Boolean, Char)]
+([False,True],[’0’,’1’])   -> ([Boolean], [Char])
+[tail, init, reverse]  -> [[x]->[x]]
